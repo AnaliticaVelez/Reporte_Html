@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+}
+.botones button:hover {
+    background-color: #0e210f; /* Nuevo color de fondo al pasar el mouse */
+}
+
+.botones button {
+    width: 18%;
+    background-color: #4CAF50; /* Color de fondo */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding: 15px 32px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Sin decoración de texto */
+    display: inline-block; /* Mostrar como elemento en línea */
+    font-size: 16px; /* Tamaño de fuente */
+    margin: 4px 2px; /* Margen exterior */
+    cursor: pointer; /* Cursor al pasar por encima */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+.botones {
+    margin-top: 10px;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+     */
+     /* margin: auto;
+     margin-top: 10px;
+     text-align: center;
+     width: 75%;
+     display: flex; */
+}
+.titulo_p {
+    background-color: #d9d7d7;
+}
+.titulo_p h1 {
+    text-align:center; font-size:40px; text-transform:uppercase; color:#222; letter-spacing:1px;
+    font-family:"Playfair Display", serif; font-weight:400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+  }
+  .titulo_p h1 span {
+   
+      font-size:15px; color:#444; word-spacing:1px; font-weight:normal; letter-spacing:2px;
+      text-transform: uppercase; font-family:"Raleway", sans-serif; font-weight:500;
+  
+      display: grid;
+      grid-template-columns: 1fr max-content 1fr;
+      grid-template-rows: 27px 0;
+      grid-gap: 20px;
+      align-items: center;
+  }
+  
+  .titulo_p h1 span:after,.titulo_p h1 span:before {
+      content: " ";
+      display: block;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+      height: 5px;
+    background-color:#f8f8f8;
+  }
+
+/*  KPIS */
+section{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.card{
+    display: grid;
+    justify-items: center;
+    margin-top: 25px;
+    width: 250px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #4CAF50;
+    justify-items: center;
+    align-content: space-between;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Escala la tarjeta al 105% de su tamaño original */
+    transition: transform 0.3s ease; /* Transición suave */
+    box-shadow: 0px 0px 10px #0e210f;
+}
+.card #boton:hover{
+    background-color: #0e210f;
+}
+
+.card img{
+    margin-top: 0px;
+    width: 25%;
+    border-radius: 10%;
+    object-fit: scale-down;
+}
+
+.card p{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card p:nth-child(3){
+    color: grey;
+    margin-top: -60px;
+    font-size: 20px;
+}
+
+.card p:nth-child(2){
+    margin-top: 10px;
+
+    font-size: 20px;
+}
+
+.card #boton{
+    color: #ffffff;
+    font-size: 30px;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: #4CAF50;
+    text-align: center;
+
+} 
+.contenedor_graficas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Ajusta el espacio entre los contenedores según lo desees */
+}
+
+.imagenes {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes img {
+    width: 47%;
+
+    
+}
+.oculto {
+    display: none;
+}
+
+
+
