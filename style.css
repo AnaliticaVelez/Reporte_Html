@@ -4,7 +4,7 @@ body {
 .botones button:hover {
     background-color: #0e210f; /* Nuevo color de fondo al pasar el mouse */
 }
-
+/* Santiago */
 .botones button {
     width: 18%;
     background-color: #4CAF50; /* Color de fondo */
